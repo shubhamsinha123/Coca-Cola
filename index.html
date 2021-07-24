@@ -1,77 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coca Cola | Messy</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel = "icon" href = "https://i.ibb.co/Wtn5kDD/circle-cropped.png" type = "image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="icon"
+      href="https://i.ibb.co/Wtn5kDD/circle-cropped.png"
+      type="image/x-icon"
+    />
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <section>
-        <div class="circle"></div>
-        <header>
-            <a href="#"><img src="assets/Coca-Cola_logo.svg" class = "logo" width="100" height="100"></a>
-            <ul class="navigation">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">What's New</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </header>
-        <div class="content">
-            <div class="textbox">
-                <h2>Taste The Feelings</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Exercitationem fuga in cupiditate reiciendis quae,<br> doloremque possimus accusamus tenetur maxime ad,<br>unde vel odit impedit autem error praesentium quas veritatis mollitia!
-                </p>
-                <a href="#">Learn More</a>
-            </div>
-        </div>
-        <ul class="sci">
-            <li><a href=""><img src="assets/facebook.png" alt=""></a></li>
-            <li><a href=""><img src="assets/instagram.png" alt=""></a></li>
-            <li><a href=""><img src="assets/youtube.png" alt=""></a></li>
+      <div class="circle"></div>
+      <header>
+        <a href="#"
+          ><img
+            src="assets/Coca-Cola_logo.svg"
+            class="logo"
+            width="100"
+            height="100"
+        /></a>
+        <ul class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
-
-        <div class="imgBox">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img src="assets/coca-cola1.jpg"></div>
-                  <div class="swiper-slide"><img src="assets/coca-cola2.jpg"></div>
-                  <div class="swiper-slide"><img src="assets/coca-cola3.jpg"></div>
-                  <div class="swiper-slide"><img src="assets/coca-cola4.jpg"></div>
-                  <div class="swiper-slide"><img src="assets/coca-cola-5.jpg"></div>
-                  <!-- <div class="swiper-pagination"></div> -->
-                </div>
-            </div>
+      </header>
+      <div class="content">
+        <div class="textbox">
+          <h2>Taste The Feelings</h2>
+          <p>
+            At Coca-Cola, we have a long history of celebrating hope, positivity
+            and togetherness. At a time when the human spirit is being tested
+            like never before, we can inspire people to regain their faith in
+            humanity, by saluting the spirit of "Ummeed" in the middle of the
+            coronavirus crisis.
+          </p>
+          <a href="../Coca-Cola/read-more.html">Learn More</a>
         </div>
+      </div>
+      <ul class="sci">
+        <li>
+          <a href=""><img src="assets/facebook.png" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="assets/instagram.png" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="assets/youtube.png" alt="" /></a>
+        </li>
+      </ul>
+
+      <div class="imgBox">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="assets/coca-cola1.jpg" /></div>
+            <div class="swiper-slide"><img src="assets/coca-cola2.jpg" /></div>
+            <div class="swiper-slide"><img src="assets/coca-cola3.jpg" /></div>
+            <div class="swiper-slide"><img src="assets/coca-cola4.jpg" /></div>
+            <div class="swiper-slide"><img src="assets/coca-cola-5.jpg" /></div>
+            <!-- <div class="swiper-pagination"></div> -->
+          </div>
+        </div>
+      </div>
     </section>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
-  
+
     <script>
-        var swiper = new Swiper('.swiper-container', {
-          effect: 'coverflow',
-          grabCursor: true,
-          centeredSlides: true,
-          slidesPerView: 'auto',
-          coverflowEffect: {
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-          },
-          pagination: {
-            el: '.swiper-pagination',
-          },
-        });
-      </script>
-  
-  <!-- For image carousal fixed in one position -->
+      var swiper = new Swiper(".swiper-container", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+
+    <!-- For image carousal fixed in one position -->
     <!-- <script>
     var swiper = new Swiper('.swiper-container', {
       effect: 'flip',
@@ -85,5 +109,5 @@
       },
     });
   </script> -->
-</body>
+  </body>
 </html>
