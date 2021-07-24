@@ -19,6 +19,51 @@
   </head>
   <body>
     <section>
+      <div class="loginPopup">
+        <div class="formPopup" id="popupForm">
+          <form class="formContainer">
+            <h2 id="contact-head">
+              Please submit the details here.We will get back to you shortly...
+            </h2>
+
+            <label for="name">
+              <strong>Name</strong>
+            </label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Your Name"
+              name="name"
+              required
+            />
+
+            <label for="phone">
+              <strong>Phone</strong>
+            </label>
+            <input
+              type="number"
+              id="phone"
+              placeholder="Your Contact Number"
+              name="phone"
+              required
+            />
+            <label for="email">
+              <strong>E-Mail</strong>
+            </label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Your E-Mail"
+              name="email"
+              required
+            />
+            <button type="submit" class="btn">Submit</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">
+              Close
+            </button>
+          </form>
+        </div>
+      </div>
       <div class="circle"></div>
       <header>
         <a href="#"
@@ -29,10 +74,10 @@
             height="100"
         /></a>
         <ul class="navigation">
-          <li><a href="#">Home</a></li>
+          <li><a href="../Coca-Cola/index.html">Home</a></li>
           <li><a href="#">Menu</a></li>
           <li><a href="#">What's New</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#" onclick="openForm()">Contact</a></li>
         </ul>
       </header>
       <div class="content">
@@ -50,13 +95,23 @@
       </div>
       <ul class="sci">
         <li>
-          <a href=""><img src="assets/facebook.png" alt="" /></a>
+          <a
+            href="https://www.facebook.com/shubham.sinha.77715869/"
+            target="blank"
+            ><img src="assets/facebook.png" alt=""
+          /></a>
         </li>
         <li>
-          <a href=""><img src="assets/instagram.png" alt="" /></a>
+          <a href="https://www.instagram.com/shubham.taste2k21/" target="blank"
+            ><img src="assets/instagram.png" alt=""
+          /></a>
         </li>
         <li>
-          <a href=""><img src="assets/youtube.png" alt="" /></a>
+          <a
+            href="https://www.youtube.com/channel/UCxYeHx1lpMHCs9OaKW5y_1g"
+            target="blank"
+            ><img src="assets/youtube.png" alt=""
+          /></a>
         </li>
       </ul>
 
@@ -72,28 +127,15 @@
           </div>
         </div>
       </div>
+
+      <!--  -->
     </section>
+    <script></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
 
-    <script>
-      var swiper = new Swiper(".swiper-container", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "auto",
-        coverflowEffect: {
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-      });
-    </script>
+    <script></script>
+    <script src="script.js"></script>
 
     <!-- For image carousal fixed in one position -->
     <!-- <script>
