@@ -218,3 +218,28 @@ header .navigation li a {
     font-size: 1.2rem;
     font-family: monospace;
 }
+.active {
+    color: white;
+    display: none;
+}
+@media only screen and (max-width: 832px) {
+    header .navigation > li:nth-child(n) > a {
+        display: none;
+    }
+    header .logo {
+        background: wheat;
+    }
+    .content {
+        /* display: none; */
+    }
+    .sci {
+        /* display: none; */
+    }
+    .imgBox {
+        display: none;
+    }
+    .active {
+        color: white;
+        display: block;
+    }
+}
