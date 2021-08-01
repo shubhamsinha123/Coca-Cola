@@ -698,6 +698,15 @@ background-color: red;
 }
 
 @media screen and (max-width: 1024px) {
+	.col-left img {
+		width: 100%;
+	}
+	#myBtn {
+		right: unset;
+	}
+	.content-column img {
+		height: 400px;
+	}
 	.slideshow-container {
 		height: unset;
 	}
@@ -747,7 +756,7 @@ background-color: red;
 	}
 	.carprev,
 	.carnext {
-		top: 1658px;
+		display: none;
 	}
 	.headertext2 {
 		margin-top: 35%;
