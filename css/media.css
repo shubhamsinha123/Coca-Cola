@@ -387,7 +387,7 @@
 	}
 	#footernav {
 		background-color: rgba(19, 18, 18, 0.705);
-		padding: 6vh 10vw;
+		/* padding: 6vh 10vw; */
 	}
 
 	tabpanel__tablabel i {
@@ -403,6 +403,7 @@
 		display: block;
 		/* text-align: center; */
 		margin: 50px auto;
+		/* margin: -46px auto 46px 0; */
 		/* align-items: center; */
 		/* width: 35vh; */
 		/* height: 10vh; */
