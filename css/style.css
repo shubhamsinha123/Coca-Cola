@@ -696,3 +696,65 @@ background-color: red;
 	padding: 15px;
 	border-radius: 4px;
 }
+
+@media screen and (max-width: 1024px) {
+	.slideshow-container {
+		height: unset;
+	}
+	.second-row .row {
+		display: inline-block;
+		width: 100%;
+	}
+	#footernav {
+		display: block;
+	}
+	.media__body > * {
+		margin: 26px;
+	}
+	#content {
+		margin-left: 16px !important;
+	}
+	.plane img {
+		width: 24em;
+	}
+	#wrapper {
+		margin-top: 90px;
+	}
+	.second-row .col-right h2 {
+		margin: 5%;
+		width: 100%;
+	}
+	.second-row .col-right p {
+		margin: 5%;
+		width: unset;
+	}
+	.second-row .col-right {
+		width: 100%;
+		left: unset;
+		height: 100%;
+	}
+	.quote {
+		top: -42em;
+		left: 77%;
+	}
+	.carnext {
+		position: absolute;
+		left: 13em;
+	}
+	.carprev {
+		position: absolute;
+		right: 206px;
+	}
+	.carprev,
+	.carnext {
+		top: 1658px;
+	}
+	.headertext2 {
+		margin-top: 35%;
+		margin-left: unset;
+	}
+	.headertext1 {
+		margin: 36px 61px;
+		width: 34%;
+	}
+}

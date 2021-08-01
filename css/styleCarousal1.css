@@ -1,89 +1,96 @@
 #wrapper {
-      width: 100%;
-      max-width: 964px;
-      position: relative;
-    }
+  width: 100%;
+  max-width: 964px;
+  position: relative;
+}
 
-    #carousel {
-      overflow: auto;
-      scroll-behavior: smooth;
-    }
+#carousel {
+  overflow: auto;
+  scroll-behavior: smooth;
+}
 
-    #carousel::-webkit-scrollbar {
-      height: 0;
-    }
+#carousel::-webkit-scrollbar {
+  height: 0;
+}
 
-    #prev,
-    #next {
-      display: flex;
-      justify-content: center;
-      align-content: center;
-      border: none;
-      padding: 8px;
-      border-radius: 50%;
-      outline: 0;
-      cursor: pointer;
-      position: absolute;
-    }
+#prev,
+#next {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+}
 
-    #prev {
-      top: 50%;
-      left: 0;
-      transform: translate(50%, -50%);
-      display: none;
-    }
+#prev {
+  top: 50%;
+  left: 0;
+  transform: translate(50%, -50%);
+  display: none;
+}
 
-    .plane {
-      color: black;
-    }
+.plane {
+  color: black;
+}
 
-    #next {
-      top: 50%;
-      right: 0;
-      transform: translate(-50%, -50%);
-    }
+#next {
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
 
-    #content {
-      display: grid;
-      grid-gap: 11px;
-      grid-auto-flow: column;
-      margin: auto;
-      box-sizing: border-box;
-    }
+#content {
+  display: grid;
+  grid-gap: 11px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+}
 
-    .item {
-      width: 180px;
-      height: 180px;
-      background: green;
-    }
+.item {
+  width: 180px;
+  height: 180px;
+  background: green;
+}
 
-    .carosel {
-      display: flex;
-      padding: 50px 0px;
-    margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      height: 100vh;
-    }
+.carosel {
+  display: flex;
+  padding: 50px 0px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
 
-    .head {
-      flex: 2 0 0;
-      text-align: center;
-      padding-top: 10px;
-      margin-right: 40px;
-    }
+.head {
+  flex: 2 0 0;
+  text-align: center;
+  padding-top: 10px;
+  margin-right: 40px;
+}
 
-    .head>span {
-      border: 2px solid rgb(24, 139, 177);
-      border-radius: 5px;
-      padding: 15px 50px;
-      text-align: center;
-      display: inline-block;
-    }
+.head > span {
+  border: 2px solid rgb(24, 139, 177);
+  border-radius: 5px;
+  padding: 15px 50px;
+  text-align: center;
+  display: inline-block;
+}
 
-    .head>span>a {
-      text-decoration: none;
-      color: #000;
-    }
+.head > span > a {
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (max-width: 1024px) {
+  #prev,
+  #next {
+    display: none;
+  }
+}
