@@ -703,6 +703,7 @@ background-color: red;
 	}
 	#myBtn {
 		right: unset;
+		display: none;
 	}
 	.content-column img {
 		height: 400px;
