@@ -1,4 +1,4 @@
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 900px) {
 	.prev,
 	.next,
 	.text {
@@ -6,7 +6,7 @@
 	}
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 970px) {
 	.media {
 		flex-direction: column;
 		align-items: flex-start;
@@ -36,7 +36,7 @@
 	flex-wrap: wrap;
 	position: relative;
 }
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 970px) {
 	.tabpanel {
 		flex-direction: column;
 	}
@@ -91,7 +91,7 @@
 		padding: 0 12px 12px 12px;
 	}
 }
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 901px) {
 	.tabpanel {
 		flex-direction: row;
 	}
@@ -329,7 +329,7 @@
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
 	.column,
 	.content-column {
 		width: 100%;
@@ -358,7 +358,7 @@
 	}
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 960px) {
 	.grid {
 		display: grid;
 		grid-template-columns: 100%;
