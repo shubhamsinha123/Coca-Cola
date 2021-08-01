@@ -718,7 +718,7 @@ background-color: red;
 		display: block;
 	}
 	.media__body > * {
-		margin: 26px;
+		margin: 26px 0;
 		width: 100%;
 	}
 	#content {
@@ -745,7 +745,7 @@ background-color: red;
 	}
 	.quote {
 		top: -40em;
-		left: 77%;
+		left: 70%;
 	}
 	.carnext {
 		position: absolute;
