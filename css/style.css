@@ -719,6 +719,7 @@ background-color: red;
 	}
 	.media__body > * {
 		margin: 26px;
+		width: 100%;
 	}
 	#content {
 		margin-left: 16px !important;
@@ -743,7 +744,7 @@ background-color: red;
 		height: 100%;
 	}
 	.quote {
-		top: -42em;
+		top: -40em;
 		left: 77%;
 	}
 	.carnext {
@@ -765,5 +766,12 @@ background-color: red;
 	.headertext1 {
 		margin: 36px 61px;
 		width: 34%;
+	}
+	#tabpanel__tab-1:checked ~ .tabpanel__panels #tabpanel__panel-1,
+	#tabpanel__tab-2:checked ~ .tabpanel__panels #tabpanel__panel-2,
+	#tabpanel__tab-3:checked ~ .tabpanel__panels #tabpanel__panel-3,
+	#tabpanel__tab-4:checked ~ .tabpanel__panels #tabpanel__panel-4,
+	#tabpanel__tab-5:checked ~ .tabpanel__panels #tabpanel__panel-5 {
+		width: 350px;
 	}
 }

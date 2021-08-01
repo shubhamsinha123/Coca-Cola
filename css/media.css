@@ -12,7 +12,7 @@
 		align-items: flex-start;
 	}
 	.media .media__img {
-		margin: 0 -20px;
+		margin: unset !important;
 	}
 	.media .media__img + .media__body {
 		/* margin: 12px 24px 24px 24px; */
@@ -25,10 +25,10 @@
 	.media .media__img {
 		flex: 0 1 auto;
 		height: auto;
-		width: 90%;
+		width: 100%;
 	}
 	.media .media__img + .media__body {
-		margin: 24px 105px 24px 18px;
+		margin: unset;
 	}
 }
 
