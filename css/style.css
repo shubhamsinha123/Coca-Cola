@@ -730,6 +730,9 @@ background-color: red;
 }
 
 @media screen and (max-width: 1024px) {
+	.subnavbtn1 a {
+		color: white;
+	}
 	.col-left img {
 		width: 100%;
 	}
