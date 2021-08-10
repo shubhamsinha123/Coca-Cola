@@ -1,8 +1,8 @@
 @media only screen and (max-width: 900px) {
 	.prev,
-	.next,
-	.text {
+	.next {
 		font-size: 11px;
+		margin-top: -200px;
 	}
 }
 
@@ -367,7 +367,11 @@
 	}
 
 	.text {
-		margin: 10%;
+		top: 15rem;
+		left: 6em;
+		font-size: 15px;
+		bottom: unset;
+		background-color: rosybrown;
 	}
 
 	.backgro img {

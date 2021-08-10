@@ -176,7 +176,7 @@ header .navigation li a {
     z-index: 9;
 }
 .formContainer {
-    max-width: 300px;
+    width: 300px;
     padding: 20px;
     background-color: #fff;
 }
@@ -218,12 +218,21 @@ header .navigation li a {
     font-size: 1.2rem;
     font-family: monospace;
 }
-.active {
+header .active {
     color: white;
     display: none;
 }
 @media only screen and (max-width: 832px) {
-    header .navigation > li:nth-child(n) > a {
+    .formContainer {
+        width: 341px;
+        padding: 20px;
+        margin-left: 3rem;
+        background-color: #fff;
+    }
+    header .navigation .responsive a {
+        display: block;
+    }
+    header .navigation > li:not(:first-child) > a {
         display: none;
     }
     header .logo {
@@ -241,5 +250,25 @@ header .navigation li a {
     .active {
         color: white;
         display: block;
+        background-color: red;
+        border: none;
     }
+    .navigation .responsive {
+        position: relative;
+    }
+    .navigation .responsive .active {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    header .navigation {
+        display: block;
+    }
+    header .navigation .responsive a {
+        display: block;
+    }
+    /* .navigation .responsive a {
+        display: block;
+        width: 100%;
+    } */
 }
