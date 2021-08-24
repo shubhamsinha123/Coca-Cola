@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^Coca-Cola/?$ index.html [NC,L] 
+RewriteRule ^Coca-Cola/deck$ deck.html [NC,L]

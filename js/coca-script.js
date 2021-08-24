@@ -44,3 +44,6 @@ function myFunction() {
         x.className = "navigation";
     }
 }
+
+// scroll to top functions
+
