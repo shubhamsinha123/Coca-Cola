@@ -70,24 +70,28 @@
 	}
 	.tabpanel #tabpanel__tab-2 + .tabpanel__tablabel {
 		order: 2;
+		text-align: center;
 	}
 	.tabpanel #tabpanel__tab-2:checked ~ .tabpanel__panels {
 		order: 2;
 	}
 	.tabpanel #tabpanel__tab-3 + .tabpanel__tablabel {
 		order: 3;
+		text-align: center;
 	}
 	.tabpanel #tabpanel__tab-3:checked ~ .tabpanel__panels {
 		order: 3;
 	}
 	.tabpanel #tabpanel__tab-4 + .tabpanel__tablabel {
 		order: 4;
+		text-align: center;
 	}
 	.tabpanel #tabpanel__tab-4:checked ~ .tabpanel__panels {
 		order: 4;
 	}
 	.tabpanel #tabpanel__tab-5 + .tabpanel__tablabel {
 		order: 5;
+		text-align: center;
 	}
 	.tabpanel #tabpanel__tab-5:checked ~ .tabpanel__panels {
 		order: 5;

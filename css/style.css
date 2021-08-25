@@ -791,6 +791,9 @@ background-color: red;
 	.slideshow-container {
 		min-height: 230px;
 	}
+	.content-column img {
+		height: 400px;
+	}
 	.second-row .row {
 		display: inline-block;
 		width: 100%;
