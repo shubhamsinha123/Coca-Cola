@@ -26,6 +26,7 @@ body {
 }
 .carousal {
 	display: flex;
+	min-height: 473px;
 }
 .v-center {
 	align-items: center;
@@ -327,7 +328,7 @@ a {
 .tabpanel__tab:checked + .tabpanel__tablabel {
 	background: #e3e0cf;
 	border: 1px solid blue;
-	width: 26%;
+	width: 315px;
 	height: 70px;
 	color: black;
 }
@@ -395,6 +396,9 @@ a {
 	background-color: whitesmoke;
 	/*margin-top: 16%;*/
 	height: 100%;
+}
+.slider {
+	min-height: 800px;
 }
 
 .carosel {
@@ -620,7 +624,7 @@ background-color: red;
 }
 
 .content img {
-	width: 300px;
+	width: 344px;
 }
 
 #btchead {
@@ -736,6 +740,9 @@ background-color: red;
 .sci img {
 	width: 40px;
 }
+.fa .fa-angle-down {
+	display: none;
+}
 .sci {
 	position: unset;
 	display: flex;
@@ -781,11 +788,8 @@ background-color: red;
 		right: unset;
 		display: none;
 	}
-	.content-column img {
-		height: 400px;
-	}
 	.slideshow-container {
-		height: unset;
+		min-height: 230px;
 	}
 	.second-row .row {
 		display: inline-block;
@@ -854,6 +858,9 @@ background-color: red;
 		position: absolute;
 		right: 206px;
 	}
+	.fa .fa-angle-down {
+		display: block;
+	}
 	.carprev,
 	.carnext {
 		display: none;
@@ -876,6 +883,6 @@ background-color: red;
 	#tabpanel__tab-3:checked ~ .tabpanel__panels #tabpanel__panel-3,
 	#tabpanel__tab-4:checked ~ .tabpanel__panels #tabpanel__panel-4,
 	#tabpanel__tab-5:checked ~ .tabpanel__panels #tabpanel__panel-5 {
-		width: 350px;
+		/* width: 350px; */
 	}
 }

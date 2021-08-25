@@ -71,6 +71,7 @@ button:hover:after {
 
 .plane {
   color: black;
+  min-height: 376px;
 }
 
 #next {
