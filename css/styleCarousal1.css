@@ -64,7 +64,7 @@ button:hover:after {
 }
 
 #prev {
-  top: 50%;
+  top: 40%;
   left: 0;
   transform: translate(50%, -50%);
   display: none;
@@ -74,9 +74,24 @@ button:hover:after {
   color: black;
   min-height: 376px;
 }
+.plane img {
+  max-width: 314px;
+  min-height: 284px;
+}
+.plane .malaysia {
+  height: 284px;
+  width: 314px;
+}
+.plane h1 {
+  text-align: center;
+}
+.plane p {
+  margin: 0 30px;
+  text-align: center;
+}
 
 #next {
-  top: 50%;
+  top: 40%;
   right: 0;
   transform: translate(-50%, -50%);
 }
@@ -130,5 +145,8 @@ button:hover:after {
   #prev,
   #next {
     display: none;
+  }
+  .plane p {
+    margin: 0 20px;
   }
 }
