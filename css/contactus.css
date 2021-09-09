@@ -1,0 +1,69 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), orange), url(../assets_new/contact-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero form {
+    width: 90%;
+    max-width: 600px;
+}
+.hero .input-grp {
+    margin-bottom: 30px;
+    position: relative;
+}
+.hero input,
+.hero textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+    font-size: 15px;
+}
+.hero label {
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+.hero button {
+    padding: 10px 0;
+    outline: none;
+    color: #fff;
+    background: transparent;
+    width: 100%;
+    cursor: pointer;
+}
+.hero input:focus ~ label,
+.hero input:valid ~ label,
+.hero textarea:focus ~ label,
+.hero textarea:valid ~ label {
+    top: -35px;
+}
+.hero.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero form .row .input-grp {
+    flex-basis: 48%;
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+.hero form h1 {
+    color: White;
+    font-size: 5em;
+    font-variant: petite-caps;
+    font-weight: revert;
+}
